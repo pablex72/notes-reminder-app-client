@@ -1,0 +1,10 @@
+.item {
+  background-color: whitesmoke;
+  padding: 20px;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}

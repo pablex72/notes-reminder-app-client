@@ -1,0 +1,33 @@
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px; /* Ajusta el margen según sea necesario */
+  }
+  
+  .button {
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .archive-button {
+    background-color: #ff9800; 
+    color: white;
+  }
+  
+  .unarchive-button {
+    background-color: #2196f3; 
+    color: white;
+  }
+  
+  .update-button {
+    background-color: #4caf50; 
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #f44336; 
+    color: white;
+  }
+  
