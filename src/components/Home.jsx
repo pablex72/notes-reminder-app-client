@@ -14,7 +14,7 @@ export default function Home({ isArchived }) {
   const [categories, setCategories] = useState([]);
   const [filterName, setFilterName] = useState("default");
   const [reflectChanges, setReflectChanges] = useState(false);
-  const API_URL = "http://localhost:8080/";
+  const API_URL = "https://notes-reminder-backend.onrender.com";
 
   useEffect(() => {
     async function fetchData() {
