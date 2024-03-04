@@ -15,7 +15,7 @@ export default function Note({
   const { id, title, content, archived, tagList } = note;
   const categories= tagList;
   const [deletingNote, setDeletingNote] = useState(false);
-  const API_URL = "https://notes-reminder-backend.onrender.com";
+  const API_URL = "https://notes-reminder-backend.onrender.com/";
 
   const handleDelete = async () => {
     await axios

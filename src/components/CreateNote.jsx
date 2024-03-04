@@ -8,7 +8,7 @@ import { AiFillCloseSquare } from "react-icons/ai";
 function CreateNote({ setCreatingNote, reflectChanges, setReflectChanges }) {
   const [newCategory, setNewCategory] = useState("");
   const [note, setNote] = useState({ title: "", content: "",tagList:[] , archived: false });
-  const API_URL = "https://notes-reminder-backend.onrender.com";
+  const API_URL = "https://notes-reminder-backend.onrender.com/";
 
 //
   function handleChange(e) {

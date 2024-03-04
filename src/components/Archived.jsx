@@ -10,7 +10,7 @@ export default function Archived() {
   const [editingNote, setEditingNote] = useState(false);
   const [editingId, setEditingId] = useState(null);
   const [reflectChanges, setReflectChanges] = useState(false);
-  const API_URL = "https://notes-reminder-backend.onrender.com";
+  const API_URL = "https://notes-reminder-backend.onrender.com/";
 
   useEffect(() => {
     axios
