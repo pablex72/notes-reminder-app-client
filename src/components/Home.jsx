@@ -14,7 +14,7 @@ export default function Home({ isArchived }) {
   const [categories, setCategories] = useState([]);
   const [filterName, setFilterName] = useState("default");
   const [reflectChanges, setReflectChanges] = useState(false);
-  const API_URL = "https://notes-reminder-backend.onrender.com/";
+  const API_URL = "https://focused-mindfulness-production.up.railway.app/";
 
   useEffect(() => {
     async function fetchData() {
